@@ -1,1 +1,4 @@
-export const aMethod = (a, b) => a * b
+export const displayRow = ((row) => {
+    return row.join(',')
+})
+
